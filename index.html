@@ -50,12 +50,8 @@
                         </a>
             <ul class="dropdown-menu extended logout">
               <div class="log-arrow-up"></div>
-              <li class="eborder-top">
-                <a href="#"><i class="icon_profile"></i> My Profile</a>
-              </li>
-
               <li>
-                <a href="login.html"><i class="icon_key_alt"></i> Log Out</a>
+                <a href="login.html"><i class="icon_key_alt"></i>CERRAR SESION</a>
               </li>
             </ul>
           </li>
@@ -74,19 +70,19 @@
           <li class="active">
             <a class="" href="index.html">
                           <i class="icon_house_alt"></i>
-                          <span>Dashboard</span>
+                          <span>Principal</span>
                       </a>
 
           <li>
             <a class="" href="widgets.html">
-                          <i class="icon_genius"></i>
-                          <span>Widgets</span>
+                          <i class="fa fa-file-text"></i>
+                          <span>Tablas</span>
                       </a>
           </li>
-          <li>
+          <li class="">
             <a class="" href="chart-chartjs.html">
                           <i class="icon_piechart"></i>
-                          <span>Charts</span>
+                          <span>Grafico</span>
 
                       </a>
 
@@ -157,15 +153,15 @@
               <div class="panel-body">
                 <form role="form">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                    <p class="help-block">Example block-level help text here.</p>
+                    <label for="exampleInputEmail1">Cuenta de destino</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Numero de cuenta">
+                    <p class="help-block">Introduzca la cuenta a la que se desea depositar.</p>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <label for="exampleInputPassword1">Monto a depositar</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Monto">
                   </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary">Depositar</button>
                 </form>
 
               </div>
@@ -174,20 +170,20 @@
           <div class="col-lg-6">
             <section class="panel">
               <header class="panel-heading text-center">
-                Basic Forms
+                Retiro
               </header>
               <div class="panel-body">
                 <form role="form">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                    <p class="help-block">Example block-level help text here.</p>
+                    <label for="exampleInputEmail1">Cuenta de destino</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Numero de cuenta">
+                    <p class="help-block">Introduzca la cuenta a la que se desea depositar.</p>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <label for="exampleInputPassword1">Monto a retirar</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Monto">
                   </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary">Retirar</button>
                 </form>
 
               </div>
@@ -196,36 +192,31 @@
         </div>
              <section class="panel">
               <header class="panel-heading text-center">
-                Deposito de fondos
+               Pago de servicios
               </header>
               <div class="panel-body">
                 <form class="form-horizontal" role="form">
                   <div class="form-group">
-                    <label for="inputEmail1" class="col-lg-2 control-label">Descripcion</label>
+                    <label for="inputEmail1" class="col-lg-2 control-label">Numero de Pago electronico</label>
                     <div class="col-lg-10">
-                      <input type="text" class="form-control" id="inputEmail1" placeholder="Concepto">
-                      <p class="help-block">Describe la transaccion brevemente.</p>
+                      <input type="text" class="form-control" id="inputEmail1" placeholder="NPE">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputPassword1" class="col-lg-2 control-label">Password</label>
+                    <label for="inputPassword1" class="col-lg-2 control-label">Cuenta de origen</label>
                     <div class="col-lg-10">
-                      <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
-                      <p class="help-block">Describe la transaccion brevemente.</p>
+                      <input type="password" class="form-control" id="inputPassword1" placeholder="Numero de cuenta">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword1" class="col-lg-2 control-label">Monto a pagar</label>
+                    <div class="col-lg-10">
+                      <input type="password" class="form-control" id="inputPassword1" placeholder="Monto">
                     </div>
                   </div>
                   <div class="form-group">
                     <div class="col-lg-offset-2 col-lg-10">
-                      <div class="checkbox">
-                        <label>
-                                                  <input type="checkbox"> Remember me
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="col-lg-offset-2 col-lg-10">
-                      <button type="submit" class="btn btn-danger">Sign in</button>
+                      <button type="submit" class="btn btn-danger">Pagar</button>
                     </div>
                   </div>
                 </form>
